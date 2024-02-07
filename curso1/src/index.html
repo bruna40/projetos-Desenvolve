@@ -3,28 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./styles/style.css">
         <title>Projeto 1</title>
     </head>
     <body>
-        <header></header>
+        <header class="cabecalho">
+            <nav >
+                <ul class="cabecalho__menu">
+                    <li ><a class="cabecalho__menu__link" href="#">Home</a></li>
+                    <li ><a class="cabecalho__menu__link" href="#">Sobre mim</a></li>
+
+                </ul>
+            </nav>
+        </header>
         <main class="container-main">
             <section class="container-main__conteudo">
                 <h1 class="container-main__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque"> com um Front-end de qualidade! </strong></h1>
                 <p class="container-main__conteudo__texto">Olá! Sou a Joana Santos, desenvolvedora Front-end com especialidade em React, HTML, CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            
+                
                 <div class="container-main__conteudo__links">
+                    <h2 class="conteudo__links__subtitulo">Acesse minha redes:</h2>
                     <a href="#" class="conteudo__links__link">
-                        Instagram
+                        <img src="./assets/github.png"/>
+                        GitHub
                     </a>
                     <a href="#" class="conteudo__links__link">
-                        GitHub
+                        <img src="./assets/linkedin.png"/>
+                        Linkedin
+                    </a>
+                    
+                    <a href="#" class="conteudo__links__link">
+                        <img src="./assets/twitch.png"/>
+                        Twitch
                     </a>
                 </div> 
             </section>
             
-            <img src="./Rectangle 47.png" alt="Foto de uma mulher sentada numa mesa usando o computador"/>
+            <img src="./assets/Rectangle 47.png" alt="Foto de uma mulher sentada numa mesa usando o computador"/>
         </main>
-        <footer></footer>
+        <footer class="container-footer">
+            <p>Desenvolvido por Bruna Santiago</p>
+        </footer>
     </body>
 </html>
